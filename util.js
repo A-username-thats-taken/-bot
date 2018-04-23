@@ -21,8 +21,8 @@ client.on('message', async msg => {
    msg.channel.send(`${msg.author.avatarURL} | ID: ${msg.author.avatar}`);
  }
  if (msg.content === '>reactmesenpi') {
-  msg.react('🅾🇰')
+  msg.author.send('BETA.')
 }
 });
 
-client.login(t);
+client.login(process.env.BOT_TOKEN);
