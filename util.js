@@ -14,7 +14,7 @@ client.on('message', async msg => {
   if(msg.author.bot)return;
   if (msg.content === '>myinfo') {
     msg.delete(3000)
-    msg.channel.send(`Information about ${msg.author.username} (Sorry for your mention.) \n \n Name: ${msg.author.username} \n ID: ${msg.author.id} \n Discriminator: ${msg.author.discriminator}`);
+    msg.channel.send(`Information about ${msg.author.username} \n \n Name: ${msg.author.username} \n ID: ${msg.author.id} \n Discriminator: ${msg.author.discriminator}`);
   }
   if (msg.content === '>myavatar') {
    msg.channel.send(`${msg.author.avatarURL} | ID: ${msg.author.avatar}`);
