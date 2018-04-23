@@ -4,7 +4,7 @@
   "description": "... Utilitites bot for moderation.",
   "engines": {
    "npm": "5.7.1"
-  }
+  },
   "main": "util.js",
   "scripts": {
     "test": "echo \"Booted.\" && exit 1 "
