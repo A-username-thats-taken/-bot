@@ -1,6 +1,6 @@
 const Discord=require('discord.js');
 const client=new Discord.Client();
-
+const t='NDMxOTM1OTc4MjkxMjAwMDI0.Db_71g.XaIeRQ8JP_ibhr7BKLQ0LKvb0LA'
 client.on('ready', () => {
   console.log(`Currently Serving ${client.users.size} users, In ${client.guilds.size} servers.`)
   client.user.setActivity(`Serving ${client.users.size} users.`)
@@ -9,27 +9,6 @@ client.on('ready', () => {
 
 client.on('message', async msg => {
   if(msg.author.bot)return;
-  if(msg.content === '>botinfo') {
-    message.channel.send({embed: {
-    color: #FF7000,
-    author: {
-      name: client.user.username,
-      icon_url: client.user.avatarURL
-    },
-    title: "Info about Error Bot Renovated",
-    url: "https://discordbots.org/bot/431935978291200024",
-    description: "I am currently a test and tinker bot, whichs sole purpose is to display information. Soon to be a utility and Info bot!",
-    fields: [{
-        name: "My Creator (1.76 MHz)",
-        value: "My creator is 1.76 MHz. If you want information and your bot uses ids, it is 286188938593435648. He is a beginner and tinker in node.js and often requires help. Some ideas of this bot came from others, like this embed. His discord server is [here.](https://discord.gg/UsRKQ72)"
-      },
-    ],
-    timestamp: new Date(),
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: "© 1.76 MHz"
-    }
-  }
   
   }
   if (msg.content === '>myinfo') {
@@ -44,7 +23,7 @@ client.on('message', async msg => {
 }
 });
 
-client.login('NDMxOTM1OTc4MjkxMjAwMDI0.Db_71g.XaIeRQ8JP_ibhr7BKLQ0LKvb0LA');
+client.login(t);
 
   
   // 50 line mark :D
