@@ -2,6 +2,9 @@
   "name": "1 MHz",
   "version": "0.1",
   "description": "... Utilitites bot for moderation.",
+  "engines": {
+    "npm": "5.6.x"
+  }
   "main": "util.js",
   "scripts": {
     "test": "echo \"Booted.\" && exit 1 "
