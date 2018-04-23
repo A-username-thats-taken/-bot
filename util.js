@@ -1,6 +1,5 @@
 const Discord=require('discord.js');
 const client=new Discord.Client();
-const t='NDMxOTM1OTc4MjkxMjAwMDI0.DawAsg.JrxDA8V9mJQ-hQPoc95-9DlBA6c'
 const N1 =
 
 client.on('ready', () => {
