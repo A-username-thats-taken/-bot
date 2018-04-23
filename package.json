@@ -5,6 +5,9 @@
   "engines": {
    "npm": "5.7.1"
   },
+  "dependencies": {
+ "discord.js": "version"
+ },
   "main": "util.js",
   "scripts": {
     "test": "echo \"Booted.\" && exit 1 "
