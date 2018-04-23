@@ -1,6 +1,5 @@
 const Discord=require('discord.js');
 const client=new Discord.Client();
-const N1 =
 
 client.on('ready', () => {
   console.log(`Currently Serving ${client.users.size} users.`)
