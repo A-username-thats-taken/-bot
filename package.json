@@ -1,0 +1,15 @@
+{
+  "name": "1mhz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "util.js",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "1.76 MHz",
+  "license": "ISC"
+}
