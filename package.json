@@ -5,7 +5,7 @@
   "main": "util.js",
   "engines": {
     "rpm": "5.7.1"
-  }
+  },
   "dependencies": {
     "discord.js": "^11.3.2"
   },
