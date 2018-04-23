@@ -1,1 +1,1 @@
-worker: node util.js
+worker: node .
