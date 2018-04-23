@@ -1,0 +1,11 @@
+{
+  "name": "1 MHz",
+  "version": "0.1",
+  "description": "... Utilitites bot for moderation.",
+  "main": "util.js",
+  "scripts": {
+    "test": "echo \"Booted.\" && exit 1 "
+  },
+  "author": "1.76 MHz",
+  "license": "ISC"
+}

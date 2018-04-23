@@ -1,0 +1,28 @@
+const Discord=require('discord.js');
+const client=new Discord.Client();
+const t='NDMxOTM1OTc4MjkxMjAwMDI0.DawAsg.JrxDA8V9mJQ-hQPoc95-9DlBA6c'
+const N1 =
+
+client.on('ready', () => {
+  console.log(`Currently Serving ${client.users.size} users.`)
+  client.user.setActivity(`Serving ${client.users.size} users.`)
+});
+
+
+client.on('message', async msg => {
+  const N1 = msg.author
+
+  if(msg.author.bot)return;
+  if (msg.content === '>myinfo') {
+    msg.delete(3000)
+    msg.channel.send(`Information about ${msg.author.username} (Sorry for your mention.) \n \n Name: ${msg.author.username} \n ID: ${msg.author.id} \n Discriminator: ${msg.author.discriminator}`);
+  }
+  if (msg.content === '>myavatar') {
+   msg.channel.send(`${msg.author.avatarURL} | ID: ${msg.author.avatar}`);
+ }
+ if (msg.content === '>reactmesenpi') {
+  msg.react('🅾🇰')
+}
+});
+
+client.login(t);
