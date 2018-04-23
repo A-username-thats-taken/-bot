@@ -44,7 +44,7 @@ client.on('message', async msg => {
 }
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login('NDMxOTM1OTc4MjkxMjAwMDI0.Db_71g.XaIeRQ8JP_ibhr7BKLQ0LKvb0LA');
 
   
   // 50 line mark :D
