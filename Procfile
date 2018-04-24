@@ -1,1 +1,0 @@
-worker: node util.js
