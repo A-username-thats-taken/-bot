@@ -15,7 +15,9 @@ const client=new Discord.Client();
 
 client.on('ready', () => {
   console.log(`Currently Serving ${client.users.size} users, In ${client.guilds.size} servers.`)
-  client.user.setActivity(`with ${client.users.size} users.`)
+  client.user.setActivity('YouTube', { type: 'WATCHING' })
+  .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'none'}`))
+  .catch(console.error);
 });
 
 
