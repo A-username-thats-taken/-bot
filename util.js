@@ -1,6 +1,5 @@
 const Discord=require('discord.js');
 const client=new Discord.Client();
-const t='NDMxOTM1OTc4MjkxMjAwMDI0.Db_71g.XaIeRQ8JP_ibhr7BKLQ0LKvb0LA'
 client.on('ready', () => {
   console.log(`Currently Serving ${client.users.size} users, In ${client.guilds.size} servers.`)
   client.user.setActivity(`Serving ${client.users.size} users.`)
@@ -23,7 +22,6 @@ client.on('message', async msg => {
 }
 });
 
-client.login(t);
-
+client.login(process.env.LOL);
   
   // 50 line mark :D
